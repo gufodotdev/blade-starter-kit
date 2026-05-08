@@ -19,6 +19,9 @@
                 <a href="{{ route('security.edit') }}" class="menu-btn {{ request()->routeIs('security.edit') ? 'active' : '' }}">
                     {{ __('Security') }}
                 </a>
+                <a href="{{ route('appearance.edit') }}" class="menu-btn {{ request()->routeIs('appearance.edit') ? 'active' : '' }}">
+                    {{ __('Appearance') }}
+                </a>
             </nav>
 
             <div class="separator md:hidden"></div>
