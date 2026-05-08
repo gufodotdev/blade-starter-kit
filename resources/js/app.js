@@ -1,1 +1,1 @@
-//
+import 'starting-point-ui';
